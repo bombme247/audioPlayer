@@ -1,5 +1,11 @@
 let allSongs = [
   {
+    title: "Violets",
+    artist: "Joshua Golden",
+    img: "violets",
+    src: "Violets - Joshua Golden",
+  },
+  {
     title: "Shining",
     artist: "X - Ambassadors",
     img: "shining",

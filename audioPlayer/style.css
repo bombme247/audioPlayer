@@ -99,7 +99,7 @@ html {
 .duration__line .line {
   height: inherit;
   border-radius: inherit;
-  width: 0;
+  width: 0%;
   position: relative;
   background: var(--red);
 }
@@ -193,11 +193,6 @@ button {
 .list {
   width: 25px;
   height: 25px;
-}
-
-.small-btn svg path,
-.small-btn svg circle  {
-  fill: var(--light-grey);
 }
 
 .back:hover svg path,

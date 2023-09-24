@@ -92,4 +92,21 @@ currentAudio.addEventListener("timeupdate", (e) => {
   const duration = e.target.duration;
   let progressWidth = (currentTime / duration) * 100;
   progressLine.style.width = `${progressWidth}%`;
+
+  // update audio total duration time 
+  currentAudio.addEventListener("loadeddata", () => {
+    let audioCurrentTime = document.querySelector(".current"),
+        audioDurationTime = document.querySelector(".duration");
+
+        let audioDuration = currentAudio.duration;
+        let min = Math.floor(audioDuration / 60);
+        let sec = Math.floor(audioDuration % 60);
+        if (sec < 10) {
+          sec = `0${sec}`;
+        }
+        audioDurationTime.innerText = `${min}:${sec}`;
+  });
 });
+
+// update audio progress time 
+

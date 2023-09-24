@@ -19,11 +19,11 @@ window.addEventListener("load", () => {
 
 // load song function
 function loadTrack(index) {
-  background.src = `assets/images/${allSongs[index - 1].img}.jpg`;
-  trackImg.src = `assets/images/${allSongs[index - 1].img}.jpg`;
+  background.src = `../audioPlayer/assets/images/${allSongs[index - 1].img}.jpg`;
+  trackImg.src = `../audioPlayer/assets/images/${allSongs[index - 1].img}.jpg`;
   songTitle.innerText = allSongs[index - 1].title;
   (artist.innerText = allSongs[index - 1].artist),
-    (currentAudio.src = `assets/songs/${allSongs[index - 1].src}.m4a`);
+    (currentAudio.src = `../audioPlayer/assets/songs/${allSongs[index - 1].src}.m4a`);
 }
 
 // change class function

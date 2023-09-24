@@ -99,7 +99,7 @@ html {
 .duration__line .line {
   height: inherit;
   border-radius: inherit;
-  width: 50%;
+  width: 0;
   position: relative;
   background: var(--red);
 }
@@ -158,13 +158,10 @@ button {
   cursor: pointer;
 }
 
-.back {
-  transform: rotateY(180deg);
-}
-
 .play-pause {
   width: 60px;
   height: 60px;
+  font-size: 1.3em;
 }
 
 .back svg path,

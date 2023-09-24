@@ -1,9 +1,9 @@
 let allSongs = [
   {
     title: "Shining",
-    artist: "X-Ambassadors",
+    artist: "X - Ambassadors",
     img: "shining",
-    src: "Shining - X Ambassadors",
+    src: "Shining - X - Ambassadors",
   },
   {
     title: "Empty",
@@ -17,4 +17,16 @@ let allSongs = [
     img: "sorry",
     src: "sorry",
   },
+  {
+    title: "Dream on",
+    artist: "Aerosmith",
+    img: "Aerosmith",
+    src: "Dream On - Aerosmith",
+  },
+  {
+    title: "Violets",
+    artist: "Joshua Golden",
+    img: "violets",
+    src: "Violets - Joshua Golden",
+  }
 ];
